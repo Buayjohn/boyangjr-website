@@ -1,0 +1,23 @@
+<html>
+    
+    <head>
+        <title> Planning A Trip To Ethiopian Unity Parks </title>
+    </head>
+    <body bgcolor="skyblue">
+        <h1 align="center"><font color="white">A Trip to Ethiopian Unity Parks</h1></font>
+        <p align="center"><img src="sj.jpeg"width="400px" height="250px"></p>
+        <font face="arial , geneva"color="green"size="+1"><b>Attractions</b></font>
+        <p>
+            <font face="arial ,geneva" color="blue">
+        
+        <p>
+            <ul>
+                <li>Gambella National Park</li>
+                <li>Bale National Park</li>
+                <li>Awash National Park</li>
+            </ul>
+        </p>
+    </font>
+</p>
+    </body>
+</html>

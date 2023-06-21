@@ -1,0 +1,89 @@
+!DOCTYPE <html>
+    html lang="en"
+    <head>
+<title>Document</title>
+    </head>
+    <body bgcolor="skyblue">
+        <form >
+            <div>
+            <label for="fn">First name:</label>
+            <input type="text" id="fn" placeholder="enter first name" required>
+        </div><br>
+        <div>
+        <label for="ln">Last name:</label>
+        <input type="text" id="ln" placeholder="enter last name" required>
+        </div><br>
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" placeholder="must have atleast six character " required size="30" maxlength="8">
+        </div><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@gmail.com " required size="30" >
+        </div><br>
+        <div>
+            <label for="phone">Phone no:</label>
+            <input type="tell" id="phone" placeholder="(251)917901435" required>
+        </div>
+        <div>
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="date" required >
+        </div><br>
+        <div>
+            <label for="qty">Quality:</label>
+            <input type="qty" id="qty" min="0" max="100" value="1" required >
+        </div><br>
+        <div>
+            <label for="Mr">Mr.:</label>
+            <input type="radio" id="Mr" name="title">
+            <label for="Phd">Phd</label>:</label>           
+             <input type="radio" id="Phd" name="title">
+            <label for="Mrs">Mrs.:</label>
+            <input type="radio" id="Mrs" name="title">
+        </div><br>
+        <div>
+            <label for="Female">Female</label>:</label>
+            <input type="radio" id="Female" name="title">
+            <label for="Male">Male:</label>
+            <input type="radio" id="Male" name="title">
+        </div><br>
+        <div>
+            <label for="C">C++:</label>
+            <input type="checkbox" id="C++"><br>
+            <label for="Java">Java</label>
+            <input type="checkbox" id="Java" ><br>
+            <label for="Python">Python:</label>
+            <input type="checkbox" id="Python" checked="checked"><br>
+        </div><br>
+        <fieldset><legend>programming Language:</legend>
+            <div>
+                <label for="C">C++:</label>
+                <input type="checkbox" id="C++"><br>
+                <label for="Java">Java</label>:</label>
+                <input type="checkbox" id="Java" ><br>
+                <label for="Python">Python:</label>
+                <input type="checkbox" id="Python" checked="checked"><br>
+            </div><br>
+        </fieldset>
+
+        <div>
+            <label for="All"></label>
+            <select id="All">
+                <option>All</option>
+                <option>C++</option>
+                <option>Java</option>
+                <option selected="selected">Python</option>
+            </select>
+            
+        </div><br>
+        <div>
+            <label for="cmt">Comment:</label>
+            <textarea rows="5" cols="" id="cmt" placeholder="write a Comment"></textarea>
+        </div><br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+        </form>       
+    </body>
+</html>
